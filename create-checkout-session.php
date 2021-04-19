@@ -6,7 +6,7 @@ require 'vendor/autoload.php';
 
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'http://localhost:80';
+$YOUR_DOMAIN = 'http://localhost:4242';
 
 $checkout_session = \Stripe\Checkout\Session::create([
   'payment_method_types' => ['card'],
